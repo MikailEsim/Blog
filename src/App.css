@@ -1,41 +1,145 @@
 .App {
   font-family: "Times New Roman", Times, serif;
+  padding-bottom: 1.25%;
+  background-color: whitesmoke;
 }
 
 .base-container {
   margin-top: 2.5%;
+  font-size: 1.35vw;
 }
 
-.profile-photo-box {
-  border: 1px solid gray;
-  border-top: none;
-  border-bottom: none;
-  background-color: whitesmoke;
+@media only screen and (max-width: 576px) {
+  .base-container {
+    font-size: 2.35vw;
+  }
+}
+
+.profile {
+  box-shadow: 0 2px 3px rgba(10,10,10,.1), 0 0 0 1px rgba(10,10,10,.1);
 }
 
 .profile-photo {
-  width: 30%;
-  margin: -15% 0 0 10%;
-  border: 5px solid white;
+  width: 20%;
+  margin: -10% 0 0 9%;
+  box-shadow: 0 2px 3px rgba(10,10,10,.1), 0 0 0 1px rgba(10,10,10,.1);
+}
+
+@media only screen and (max-width: 576px) {
+  .profile-photo {
+    width: 25%;
+    margin: -12.5% 0 0 9%;
+    box-shadow: 0 2px 3px rgba(10,10,10,.1), 0 0 0 1px rgba(10,10,10,.1);
+  }
 }
 
 .profile-info-box {
-  border: 1px solid gray;
-  border-top: none;
   background-color: whitesmoke;
   padding: 2% 0 0 10%;
 }
 
-.projeler-box {
-  border: 1px solid gray;
+.card-school {
+  margin: 2.5% 0 0 0;
+}
+
+.schools {
+  text-decoration: none;
+  color: black
+}
+
+.schools:hover {
+  text-decoration: none;
+  color: blue;
+}
+
+.card-shadow{
+  box-shadow: 0 2px 3px rgba(10,10,10,.1), 0 0 0 1px rgba(10,10,10,.1);
+}
+
+.card-img-top {
+  height: 177px;
+}
+
+.card-font-size {
+  font-size: 1.35vw;
+  text-align: center;
+}
+
+@media only screen and (max-width: 576px) {
+  .card-font-size {
+    font-size: 2.35vw
+  }
+}
+
+.card-work {
+  margin: 2.5% 0 0 0;
+  box-shadow: 0 2px 3px rgba(10,10,10,.1), 0 0 0 1px rgba(10,10,10,.1);
+}
+
+.carousell-web {
+  margin: 2.5% 0 0 0;
+  box-shadow: 0 2px 3px rgba(10,10,10,.1), 0 0 0 1px rgba(10,10,10,.1);
+}
+
+.carousell-ios {
+  margin: 5% 2.5% 0 0;
+  box-shadow: 0 2px 3px rgba(10,10,10,.1), 0 0 0 1px rgba(10,10,10,.1);
+}
+
+.carousell-android {
+  margin: 5% 0 0 2.5%;
+  box-shadow: 0 2px 3px rgba(10,10,10,.1), 0 0 0 1px rgba(10,10,10,.1);
+}
+
+.carousel-info {
+  background-color: whitesmoke;
+}
+
+.project-header {
+  text-align: center;
+  margin: 2.1925%;
+}
+
+@media only screen and (max-width: 576px) {
+  .project-header {
+    text-align: center;
+    font-size: 2.35vw;
+  }
+}
+
+.project-image {
+  border-top: 1px solid #343a40
+}
+
+.carousel-control-prev-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%black' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E") !important;
+ }
+ 
+ .carousel-control-next-icon {
+   background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%black' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E") !important;
+ }
+
+ .carousel-indicators li {
+  background-color: black!important;
+}
+
+.iletisim-box {
   background-color: whitesmoke;
   margin: 0 0 0 5%;
   padding: 3.95%;
+  box-shadow: 0 2px 3px rgba(10,10,10,.1), 0 0 0 1px rgba(10,10,10,.1);
 }
 
-.hobiler-box {
-  border: 1px solid gray;
+.yetenekler-box {
   background-color: whitesmoke;
   margin: 5% 0 0 5%;
   padding: 3.95%;
+  box-shadow: 0 2px 3px rgba(10,10,10,.1), 0 0 0 1px rgba(10,10,10,.1);
+}
+
+.hobiler-box {
+  background-color: whitesmoke;
+  margin: 5% 0 0 5%;
+  padding: 3.95%;
+  box-shadow: 0 2px 3px rgba(10,10,10,.1), 0 0 0 1px rgba(10,10,10,.1);
 }
